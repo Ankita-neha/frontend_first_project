@@ -1,0 +1,89 @@
+*, 
+ *:after, 
+ *:before { 
+ 	box-sizing: border-box; 
+ } 
+  /*.wrapper { 
+ 	display: flex;
+ }*/
+ /*.container {
+   height: 500px;
+   background-color: orange;}*/
+
+ 
+/*header {
+  background-color: #4267b2;
+  height: 30px;
+  margin-bottom: 20px;
+}*/
+html,body { 
+ 	height: 100%; 
+ 	width: 100%; 
+ 	font-family: sans-serif; 
+ } 
+.wrapper { 
+ 	max-width: 1000px; 
+ 	margin-left: auto; 
+ 	margin-right: auto;
+ 	display: flex; 
+ } 
+
+
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+/*footer {
+  background-color: rgba(0,0,0,0.87);
+  height: 30px;
+  margin-top: 20px;
+}*/
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+  background-color: #e9ebee;
+}
+.white-text {
+  color: white !important;
+}
+#header ul .glyphicon {
+   font-size: 20px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.comment {
+    margin: 0;
+}
+.form-group {
+
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+	color:black !important;
+	font-size:25spx;
+	border:10px !important;
+	}
